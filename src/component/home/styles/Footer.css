@@ -1,0 +1,6 @@
+.footer {
+  height: 100vh;
+  background-color: rgb(143, 130, 148);
+  scroll-snap-align: start;
+  padding: 20px;
+}
