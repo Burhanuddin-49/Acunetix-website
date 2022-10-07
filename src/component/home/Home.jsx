@@ -12,12 +12,6 @@ const Home = () => {
           <Title />
           <About />
           <Footer />
-        {/* <div className="event-name">
-        </div>
-        <div className="about">
-        </div>
-        <div className="footer">
-        </div> */}
       </div>
     </div>
   );

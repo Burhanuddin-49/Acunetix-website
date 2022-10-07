@@ -10,7 +10,7 @@
 
 .title h1 {
   padding-top: 105px;
-  font-size: 80px;
+  font-size: 10vmin;
   letter-spacing: 10px;
   background: linear-gradient(
     to right,
@@ -26,6 +26,6 @@
   transition: font-size 1s;
 }
 
-h1:hover {
-  font-size: 95px;
+.title h1:hover {
+  font-size: 13vmin;
 }
