@@ -1,5 +1,5 @@
 .title {
-  height: 100vh;
+  height: 80vh;
   scroll-snap-align: start;
   align-items: center;
   display: flex;
@@ -14,11 +14,11 @@
   letter-spacing: 10px;
   background: linear-gradient(
     to right,
-    rgb(195, 170, 201),
-    rgb(92, 32, 94),
-    rgb(40, 16, 44),
-    rgb(49, 7, 44),
-    rgb(12, 1, 14)
+    rgb(212, 203, 216),
+    rgb(206, 186, 207),
+    rgb(206, 186, 207),
+    rgb(206, 186, 207),
+    rgb(212, 203, 216)
   );
   -webkit-text-fill-color: transparent;
   background-clip: text;

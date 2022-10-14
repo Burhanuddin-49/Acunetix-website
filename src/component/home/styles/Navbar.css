@@ -1,14 +1,13 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Orbitron', sans-serif;
 }
 
 a {
   text-decoration: none;
+  color: whitesmoke;
 }
 
 ul {
@@ -20,24 +19,31 @@ ul {
 }
 
 .active {
-  color: #112434;
+  color: #112434 ;
   background-color: whitesmoke;
   padding: 5px;
   border-radius: 20px;
   font-weight: bold;
 }
 
+.active a {
+  color: #112434 ;
+
+}
+
 .navbar {
-  position: absolute;
+  position: fixed;
+  z-index: 999;
   top: 0;
   left: 0;
   display: flex;
   width: 100%;
   justify-content: space-between;
   height: 100px;
-  background-color: #4a155a8f;
+  /* background-color: #4a155a8f; */
   padding: 30px 100px;
   color: whitesmoke;
+  font-weight: 700;
 }
 
 .nav-links {

@@ -1,6 +1,23 @@
 .footer {
-  height: 100vh;
   background-color: rgb(143, 130, 148);
   scroll-snap-align: start;
   padding: 20px;
+}
+
+.map-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 280px;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.card text-bg-dark {
+  background-color: #454545 !important
+}
+
+.logo-csi {
+  height: 112px;
+  padding-bottom: 6px;
 }
