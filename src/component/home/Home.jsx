@@ -4,6 +4,7 @@ import video from "../../video/mv1.mp4";
 import About from "./About"
 import Footer from "./Footer";
 import Title from "./Title";
+import EventCatalog from "./EventCatalog";
 const Home = () => {
   return (
     <div className="body">
@@ -11,6 +12,7 @@ const Home = () => {
       <div className="section">
           <Title />
           <About />
+          <EventCatalog/>
           <Footer />
       </div>
     </div>
