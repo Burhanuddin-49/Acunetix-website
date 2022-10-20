@@ -15,6 +15,7 @@ const Footer = () => {
                 <div className="col-md-6 py-3">
                   <div className="map-container">
                     <iframe
+                      title="this is unique title"
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3780.910758697476!2d73.81383121489428!3d18.62308328734934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2b860d63876d1%3A0x9bccd5081468bc36!2sDr.%20D.%20Y.%20Patil%20Institute%20of%20Technology!5e0!3m2!1sen!2sin!4v1665319094709!5m2!1sen!2sin"
                       width="100%"
                       height="100%"
@@ -40,13 +41,13 @@ const Footer = () => {
                               />
                             </div>
                             <div className="col-6">
-                              <a className="link-light d-block py-1" href="#">
+                              <a className="link-light d-block py-1" href="/">
                                 LinkedIn
                               </a>
-                              <a className="link-light d-block py-1" href="#">
+                              <a className="link-light d-block py-1" href="/">
                                 Facebook
                               </a>
-                              <a className="link-light d-block py-1" href="#">
+                              <a className="link-light d-block py-1" href="/">
                                 Instagram
                               </a>
                             </div>
@@ -63,13 +64,13 @@ const Footer = () => {
                               <img className="logo-csi" src={csi} alt="" />
                             </div>
                             <div className="col-6">
-                              <a className="link-light d-block py-1" href="">
+                              <a className="link-light d-block py-1" href="/">
                                 LinkedIn
                               </a>
-                              <a className="link-light d-block py-1" href="">
+                              <a className="link-light d-block py-1" href="/">
                                 Facebook
                               </a>
-                              <a className="link-light d-block py-1" href="">
+                              <a className="link-light d-block py-1" href="/">
                                 Instagram
                               </a>
                             </div>
