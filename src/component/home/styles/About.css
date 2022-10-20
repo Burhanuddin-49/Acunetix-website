@@ -1,5 +1,5 @@
 .about {
-  height: 80vh;
+  height: 100vh;
   background-color: rgb(84, 8, 114);
   scroll-snap-align: start;
   color: white;

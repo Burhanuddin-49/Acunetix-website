@@ -15,13 +15,13 @@ const EventCatalog = () => {
         >
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="3000">
-              <img src={event} className="d-block w-100" alt="..." />
+              <img src={event} className="d-block w-100" alt="" />
             </div>
             <div className="carousel-item" data-bs-interval="3000">
-              <img src={event} className="d-block w-100" alt="..." />
+              <img src={event} className="d-block w-100" alt="" />
             </div>
             <div className="carousel-item" data-bs-interval="3000">
-              <img src={event} className="d-block w-100" alt="..." />
+              <img src={event} className="d-block w-100" alt="" />
             </div>
           </div>
           <button
@@ -53,12 +53,12 @@ const EventCatalog = () => {
       <div className="split2 right2">
         <h1>Event Catalog</h1>
         <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias
-          iste voluptatum aperiam rem accusamus nesciunt at. Repellendus
-          laudantium, qui quaerat unde temporibus atque autem dolor dolorum,
-          harum eos laborum maiores minus amet dignissimos voluptatum quod!
-          Voluptatibus molestiae, vel facere atque excepturi voluptatum
-          laudantium architecto iure earum! Consequuntur quisquam eos omnis?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
+          explicabo est esse ipsum tempore at consequatur, doloremque omnis,
+          laudantium tenetur quis, tempora velit inventore totam dignissimos
+          sint asperiores dolorem facere ut eius rem. Asperiores cumque amet
+          libero recusandae voluptatem minima rem deleniti maxime dolorem
+          facere. Ducimus quod excepturi iure dolore!
         </p>
         <Button style={{ backgroundColor: "black", color: "white" }}>
           <Link to="/event">Events</Link>

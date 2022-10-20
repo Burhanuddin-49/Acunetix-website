@@ -10,15 +10,15 @@ import img7 from "../../image/A7.png";
 
 const About = () => {
   document.addEventListener("mousemove", parallax);
-  function parallax(e){
+  function parallax(e) {
     document.querySelectorAll(".object").forEach(function (move) {
       var moving_value = move.getAttribute("datavalue");
-      var x = (e.clientX * moving_value)/250;
-      var y = (e.clientY * moving_value)/250;
+      var x = (e.clientX * moving_value) / 250;
+      var y = (e.clientY * moving_value) / 250;
 
       move.style.transform = "translateX(" + x + "px) translateY(" + y + "px)";
     });
-  };
+  }
   return (
     <div className="about">
       <div className="split left">
@@ -33,13 +33,55 @@ const About = () => {
         </p>
       </div>
       <div className="split right container1">
-        <img src={img1} className="object" datavalue="-2" alt="" />
-        <img src={img2} className="object" datavalue="2" alt="" />
-        <img src={img3} className="object" datavalue="5" alt="" />
-        <img src={img4} className="object" datavalue="-5" alt="" />
-        <img src={img5} className="object" datavalue="4" alt="" />
-        <img src={img6} className="object" datavalue="6" alt="" />
-        <img src={img7} className="object" datavalue="3" alt="" />
+        <img
+          src={img1}
+          className="object"
+          datavalue="-2"
+          loading="lazy"
+          alt=""
+        />
+        <img
+          src={img2}
+          className="object"
+          datavalue="2"
+          loading="lazy"
+          alt=""
+        />
+        <img
+          src={img3}
+          className="object"
+          datavalue="5"
+          loading="lazy"
+          alt=""
+        />
+        <img
+          src={img4}
+          className="object"
+          datavalue="-5"
+          loading="lazy"
+          alt=""
+        />
+        <img
+          src={img5}
+          className="object"
+          datavalue="4"
+          loading="lazy"
+          alt=""
+        />
+        <img
+          src={img6}
+          className="object"
+          datavalue="6"
+          loading="lazy"
+          alt=""
+        />
+        <img
+          src={img7}
+          className="object"
+          datavalue="3"
+          loading="lazy"
+          alt=""
+        />
       </div>
     </div>
   );
