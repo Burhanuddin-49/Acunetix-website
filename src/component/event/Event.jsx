@@ -1,9 +1,11 @@
 import React from 'react'
 import './Event.css';
-
+import Card from "./Card"
 const Event = () => {
   return (
-    <div>Event</div>
+    <div className='sectionEvent'>
+      <Card/>
+    </div>
   )
 }
 
