@@ -41,8 +41,8 @@ ul {
   justify-content: space-between;
   height: 100px;
   /* background-color: #4a155a8f; */
-  background-color: rgba(84, 8, 114, 0.822);
-  /* backdrop-filter: blur(10px); */
+  /* background-color: rgba(84, 8, 114, 0.822); */
+  /* backdrop-filter: blur(5px); */
   padding: 30px 100px;
   color: whitesmoke;
   font-weight: 700;
