@@ -1,7 +1,8 @@
 .EventCatalog {
   height: 100vh;
   color: white;
-  background-color: rgb(84, 8, 114);
+  /* background-color: rgba(84, 8, 114, 0.822); */
+  backdrop-filter: blur(30px);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -18,9 +19,9 @@
 }
 
 .right2 {
-    position: relative;
-    height: 100%;
-    width: 50%;
+  position: relative;
+  height: 100%;
+  width: 50%;
 }
 
 .right2 h1 {

@@ -7,7 +7,6 @@
 }
 .containerEvent {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   max-width: 1200px;
@@ -24,6 +23,8 @@
 }
 .containerEvent .cardEvent {
   position: relative;
+  display: flex;
+  flex-direction: column;
   width: 340px;
   height: 340px;
   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.05),
@@ -40,7 +41,7 @@
   bottom: 20px;
   height: 300px;
   width: 300px;
-  background: #9e9d9f49;
+  background: #d2cbd8fa;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   border-radius: 15px;
   display: flex;

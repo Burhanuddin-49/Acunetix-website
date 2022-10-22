@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 
 a {
@@ -40,7 +40,9 @@ ul {
   width: 100%;
   justify-content: space-between;
   height: 100px;
-  background-color: #4a155a8f;
+  /* background-color: #4a155a8f; */
+  background-color: rgba(84, 8, 114, 0.822);
+  /* backdrop-filter: blur(10px); */
   padding: 30px 100px;
   color: whitesmoke;
   font-weight: 700;

@@ -1,12 +1,14 @@
-import React from 'react'
-import './Event.css';
-import Card from "./Card"
+import React from "react";
+import "./Event.css";
+import Card from "./Card";
 const Event = () => {
   return (
-    <div className='sectionEvent'>
-      <Card/>
+    <div className="Event">
+      <div className="sectionEvent">
+        <Card />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Event
+export default Event;
