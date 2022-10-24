@@ -1,10 +1,13 @@
 import React from "react";
-import './styles/Title.css'
+import "./styles/Title.css";
 
 const Title = () => {
   return (
     <div className="title">
-      <h1>METAVERSE</h1>
+      <div>
+        <h1>METAVERSE</h1>
+      </div>
+      <span className="loader"></span>
     </div>
   );
 };

@@ -6,7 +6,7 @@ import csi from "../../image/CSI.png";
 const Footer = () => {
   return (
     <footer>
-      <div className="container-fluid text-bg-dark py-4 border-3 border-danger">
+      <div className="container-fluid py-4 border-3 border-danger footer">
         <div className="row">
           <div className="col">
             <h3 className="text-center py-4">ACUNETIX 10.0</h3>
@@ -85,7 +85,10 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-center py-3" style={{ backgroundColor: "#111" }}>
+      <div
+        className="text-center py-3"
+        style={{ backdropFilter: "blur(100px)", color: "white" }}
+      >
         ©2022 Team Acunetix. All rights reserved.
       </div>
     </footer>
