@@ -10,16 +10,24 @@ const Header = () => {
       <h1 className="logo">Acunetix 10.0</h1>
       <ul className={`nav-links`} id={`mobile-menu-${menu}`}>
         <li className="active">
-          <Link to="/">Home</Link>
+          <Link to="/" onClick={() => setMenu(false)}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/event">Event</Link>
+          <Link to="/event" onClick={() => setMenu(false)}>
+            Event
+          </Link>
         </li>
         <li>
-          <Link to="/sponsors">Sponsors</Link>
+          <Link to="/sponsors" onClick={() => setMenu(false)}>
+            Sponsors
+          </Link>
         </li>
         <li>
-          <Link to="/contact">Contact Us</Link>
+          <Link to="/contact" onClick={() => setMenu(false)}>
+            Contact Us
+          </Link>
         </li>
       </ul>
       <img

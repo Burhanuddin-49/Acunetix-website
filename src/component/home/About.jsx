@@ -37,7 +37,6 @@ const About = () => {
           src={img1}
           className="object"
           datavalue="-2"
-          loading="lazy"
           alt=""
         />
         <img
@@ -51,7 +50,6 @@ const About = () => {
           src={img3}
           className="object"
           datavalue="5"
-          loading="lazy"
           alt=""
         />
         <img
@@ -65,7 +63,6 @@ const About = () => {
           src={img5}
           className="object"
           datavalue="4"
-          loading="lazy"
           alt=""
         />
         <img
@@ -79,7 +76,6 @@ const About = () => {
           src={img7}
           className="object"
           datavalue="3"
-          loading="lazy"
           alt=""
         />
       </div>
